@@ -4,7 +4,7 @@ import './index.css';
 import Todo from './components/main';
 import registerServiceWorker from './registerServiceWorker';
 
-let tasksList = ['Task 1', 'Task 2'];
+let tasksList = ['Task 1', 'Task 2', 'Task 3'];
 
 ReactDOM.render(<Todo tasks = {tasksList}/>, document.getElementById('root'));
 registerServiceWorker();
